@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Rothkopf Chat",
+    "slug": "rothkopfchat-app",
+    "privacy": "unlisted",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.michaelrothkopf.rothkopfchat",
+      "buildNumber": "1.0.4"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.michaelrothkopf.rothkopfchat",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0a28d370-c13d-4c08-a572-a8d30e00e05f"
+      }
+    },
+    "owner": "mrbros35"
+  }
+}
